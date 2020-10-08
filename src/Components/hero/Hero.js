@@ -26,7 +26,7 @@ function Hero() {
                 </div>
             </div>
 
-            <img src={'https://assets.website-files.com/5e09f044743608547fe6e12a/5e130c3e6a42a449fb63c612_decor-v1.svg'} className='absolute bottom-0 left-0 w-full' />
+            <img src={'https://assets.website-files.com/5e09f044743608547fe6e12a/5e130c3e6a42a449fb63c612_decor-v1.svg'} className='hero-wave absolute left-0 w-full' />
         </div>
     )
 }
