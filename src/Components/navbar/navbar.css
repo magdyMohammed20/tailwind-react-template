@@ -15,6 +15,7 @@
 
 .search-overlay{
     transition: all .5s ease;
+    z-index: 999
 }
 
 .open-search-overlay{
@@ -35,6 +36,7 @@
         overflow: hidden;
         transition: all .4s linear;
         text-align: center;
+        z-index: 999
     }
 
     .dropdown li{

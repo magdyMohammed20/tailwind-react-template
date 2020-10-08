@@ -52,7 +52,7 @@ function Navbar() {
                                 <i className="fa fa-times" aria-hidden="true"></i>
                             </button>
 
-                            <form className='absolute w-3/4 lg:w-1/2'>
+                            <form className='absolute w-5/6 lg:w-1/2'>
                                 <div className='bg-white px-4 rounded flex items-center'>
                                     <i className='fa fa-search mr-3 text-gray-600'></i>
                                     <input type='search' className='h-100 py-4 flex-1 focus:outline-none' name='search' placeholder='What Are You Looking For ?' />
