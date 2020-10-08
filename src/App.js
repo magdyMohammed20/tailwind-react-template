@@ -1,11 +1,11 @@
 import React from 'react';
 import './App.css';
-import '../node_modules/font-awesome/css/font-awesome.min.css'
+import Navbar from './Components/navbar/Navbar'
 
 function App() {
   return (
     <div className="App">
-
+      <Navbar />
     </div>
   );
 }
