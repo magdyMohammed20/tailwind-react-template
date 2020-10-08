@@ -2,6 +2,24 @@
     height: 240px !important;
 }
 
+.close-overlay{
+    width: 40px;
+    height: 40px;
+}
+
+.search-and-buy form{
+    top: 30%;
+    left: 50%;
+    transform: translate(-50%);
+}
+
+.search-overlay{
+    transition: all .5s ease;
+}
+
+.open-search-overlay{
+    transform: scale(1) !important;
+}
 @media(max-width: 992px){
 
     nav .toggle-dropdown-menu{
@@ -13,10 +31,10 @@
         top: 100%;
         left: 0;
         width: 100%;
-        background: #f6ad55;
         height: 0;
         overflow: hidden;
         transition: all .4s linear;
+        text-align: center;
     }
 
     .dropdown li{
