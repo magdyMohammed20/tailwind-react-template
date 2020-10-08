@@ -1,6 +1,7 @@
 import React from 'react';
 import logo from './logo.svg';
 import './App.css';
+import '../node_modules/font-awesome/css/font-awesome.min.css'
 
 function App() {
   return (
