@@ -5,6 +5,7 @@ import Hero from './Components/hero/Hero'
 import Brands from './Components/brands/Brands'
 import Webflow from './Components/webflow/Webflow'
 import Pricing from './Components/pricing/Pricing'
+import Questions from './Components/questions/Questions'
 
 function App() {
   return (
@@ -14,6 +15,7 @@ function App() {
       <Brands />
       <Webflow />
       <Pricing />
+      <Questions />
     </div>
   );
 }
