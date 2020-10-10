@@ -55,9 +55,6 @@
     background-color: #FFF !important;
 }
 
-.owl-dot.active span{
-    background-color:  #3c366b !important;
-}
 
 .owl-prev:hover > span,
 .owl-next:hover > span{
@@ -68,4 +65,8 @@
 .owl-next:focus,
 .owl-dot:focus{
     outline: none;
+}
+
+.owl-dots{
+    display: none !important
 }

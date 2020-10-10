@@ -5,7 +5,7 @@ import 'owl.carousel/dist/assets/owl.theme.default.css';
 import './posts.css'
 function Posts() {
     return (
-        <div className='bg-gray-300 p-8'>
+        <div className='bg-gray-300 p-16'>
             <div className='container-lg flex'>
                 <div className='w-full lg:w-1/3 text-center lg:text-left'>
                     <span className='uppercase text-gray-700'>recent posts</span>
