@@ -6,6 +6,7 @@ import Brands from './Components/brands/Brands'
 import Webflow from './Components/webflow/Webflow'
 import Pricing from './Components/pricing/Pricing'
 import Questions from './Components/questions/Questions'
+import Testmonials from './Components/testmonials/Testmonials'
 
 function App() {
   return (
@@ -16,6 +17,7 @@ function App() {
       <Webflow />
       <Pricing />
       <Questions />
+      <Testmonials />
     </div>
   );
 }

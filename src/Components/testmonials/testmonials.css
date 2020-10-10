@@ -1,0 +1,51 @@
+.owl-item  
+{  
+    height: 260px;
+}  
+
+.owl-carousel .owl-item img{
+    width: 50% !important
+}
+
+.owl-dots,
+.owl-nav{
+    display: block !important;
+}
+
+.owl-prev,
+.owl-next{
+    position: absolute;
+    width: 50px;
+    height: 50px;
+    box-shadow: 0 .125rem .25rem rgba(0,0,0,.075)!important;
+    transform: translateY(-50%);
+    border-radius: 40px !important;
+    transition: all .4s ease;
+}
+
+.owl-prev{
+    left: -70px;
+    top: 50%
+}
+
+
+.owl-next{
+    right: -70px;
+    top: 50%
+}
+
+.owl-prev:hover,
+.owl-next:hover,
+.owl-dot.active span{
+    background-color: #3c366b !important;
+}
+
+.owl-prev:focus,
+.owl-next:focus,
+.owl-dot:focus{
+    outline: none;
+}
+
+.review .star{
+    background-image: url('https://assets.website-files.com/5e09f044743608547fe6e12a/5e1326eec5e98c359dfe9642_star-filled-color.svg');
+}
