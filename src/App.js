@@ -9,6 +9,8 @@ import Questions from './Components/questions/Questions'
 import Testmonials from './Components/testmonials/Testmonials'
 import Start from './Components/start/Start'
 import Posts from './Components/posts/Posts'
+import Footer from './Components/footer/Footer'
+
 function App() {
   return (
     <div className="App">
@@ -21,6 +23,7 @@ function App() {
       <Testmonials />
       <Start />
       <Posts />
+      <Footer />
     </div>
   );
 }
