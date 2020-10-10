@@ -7,7 +7,7 @@ import Webflow from './Components/webflow/Webflow'
 import Pricing from './Components/pricing/Pricing'
 import Questions from './Components/questions/Questions'
 import Testmonials from './Components/testmonials/Testmonials'
-
+import Start from './Components/start/Start'
 function App() {
   return (
     <div className="App">
@@ -18,6 +18,7 @@ function App() {
       <Pricing />
       <Questions />
       <Testmonials />
+      <Start />
     </div>
   );
 }
