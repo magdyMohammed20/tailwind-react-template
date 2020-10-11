@@ -19,7 +19,7 @@ function Pricing() {
                         Writing result-oriented ad copy is difficult, as it must appeal to, entice, and convince consumers to take action.
                     </p>
                 </div>
-                <div className='grid grid-cols-1 md:grid-cols-2 xl:grid-cols-3 mt-8'>
+                <div className='grid grid-cols-1 md:grid-cols-2 xl:grid-cols-3 mt-20'>
                     <Card imgSrc={'https://i.ibb.co/ydvHFvx/beginner.png'} title={'Beginner'} list={beginnerList} price={'0'} plan={'Free For Ever'} btnText={'Sign Up Free'} />
                     <Card imgSrc={'https://i.ibb.co/dmvb6tB/hero.png'} title={'Freelancer'} list={freelancerList} price={'15'} plan={'per month, billed yearly'} btnText={'Start Trial'} />
                     <Card imgSrc={'https://i.ibb.co/vH1N97F/team.png'} title={'Team'} list={teamList} price={'35'} plan={'per month, billed yearly'} btnText={'Start Trial'} />

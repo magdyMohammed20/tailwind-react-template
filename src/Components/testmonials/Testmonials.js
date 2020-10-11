@@ -23,7 +23,7 @@ function Testmonials() {
                 <div className='p-16'>
                     <OwlCarousel items={3} className="owl-theme" loop nav margin={8} >
 
-                        <div className='lg:p-2 xl:p-8'>
+                        <div className='lg:p-2 xl:p-8 border'>
                             <img src={circle} className='w-1/2 mx-auto' />
                             <p className='text-center mt-5 text-gray-700'>
                                 A successful marketing plan relies heavily on the pulling-power of advertising copy. Writing result-oriented ad copy is difficult, as it must consumers to take action.
@@ -37,7 +37,7 @@ function Testmonials() {
                             </div>
                         </div>
 
-                        <div className='lg:p-2 xl:p-8'>
+                        <div className='lg:p-2 xl:p-8 border'>
                             <img src={earth} className='w-1/2 mx-auto' />
                             <p className='text-center mt-5 text-gray-700'>
                                 A successful marketing plan relies heavily on the pulling-power of advertising copy. Writing result-oriented ad copy is difficult, as it must consumers to take action.
@@ -51,7 +51,7 @@ function Testmonials() {
                             </div>
                         </div>
 
-                        <div className='lg:p-2 xl:p-8'>
+                        <div className='lg:p-2 xl:p-8 border'>
                             <img src={idea} className='w-1/2 mx-auto' />
                             <p className='text-center mt-5 text-gray-700'>
                                 A successful marketing plan relies heavily on the pulling-power of advertising copy. Writing result-oriented ad copy is difficult, as it must consumers to take action.
@@ -65,7 +65,7 @@ function Testmonials() {
                             </div>
                         </div>
 
-                        <div className='lg:p-2 xl:p-8'>
+                        <div className='lg:p-2 xl:p-8 border'>
                             <img src={zooTv} className='w-1/2 mx-auto' />
                             <p className='text-center mt-5 text-gray-700'>
                                 A successful marketing plan relies heavily on the pulling-power of advertising copy. Writing result-oriented ad copy is difficult, as it must consumers to take action.
@@ -79,7 +79,7 @@ function Testmonials() {
                             </div>
                         </div>
 
-                        <div className='lg:p-2 xl:p-8'>
+                        <div className='lg:p-2 xl:p-8 border'>
                             <img src={codeLab} className='w-1/2 mx-auto' />
                             <p className='text-center mt-5 text-gray-700'>
                                 A successful marketing plan relies heavily on the pulling-power of advertising copy. Writing result-oriented ad copy is difficult, as it must consumers to take action.
@@ -93,7 +93,7 @@ function Testmonials() {
                             </div>
                         </div>
 
-                        <div className='lg:p-2 xl:p-8'>
+                        <div className='lg:p-2 xl:p-8 border'>
                             <img src={aven} className='w-1/2 mx-auto' />
                             <p className='text-center mt-5 text-gray-700'>
                                 A successful marketing plan relies heavily on the pulling-power of advertising copy. Writing result-oriented ad copy is difficult, as it must consumers to take action.

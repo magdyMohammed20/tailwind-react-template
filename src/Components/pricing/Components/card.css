@@ -1,6 +1,10 @@
 .pricing-card:nth-child(2) > div{
-    transform: translateY(-25px);
+    transform: translateY(-25px) scale(1.10);
 }
 .pricing-card > div:hover{
     transform: translateY(-25px) scale(1.05);
+}
+
+.pricing-card:nth-child(2) > div:hover{
+    transform: translateY(-25px) scale(1.10);
 }

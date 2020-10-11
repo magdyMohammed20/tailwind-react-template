@@ -5,7 +5,7 @@ function Card({ imgSrc, title, list, price, plan, btnText }) {
 
     return (
         <div className='pricing-card my-3 px-1 lg:p-5'>
-            <div className='bg-white shadow p-8 rounded transition duration-200 ease hover:shadow-lg '>
+            <div className='bg-white shadow p-8 rounded transition duration-200 ease hover:shadow-lg'>
                 <div className='w-48 h-40 mx-auto'>
                     <img src={imgSrc} className='xl:ml-0 w-full h-full' alt={title} />
                 </div>
