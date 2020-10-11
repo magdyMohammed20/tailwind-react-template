@@ -14,13 +14,12 @@
 }
 
 .search-overlay{
-    transition: all .5s ease;
-    z-index: 999
+    z-index: 999;
+    -webkit-transition: -webkit-transform 1s cubic-bezier(0.86, 0, 0.07, 1);
+    -moz-transition: -moz-transform 1s cubic-bezier(0.86, 0, 0.07, 1);
+    transition: transform .4s cubic-bezier(0.86, 0, 0.07, 1);
 }
 
-.open-search-overlay{
-    transform: scale(1) !important;
-}
 @media(max-width: 992px){
 
     nav .toggle-dropdown-menu{

@@ -9,11 +9,13 @@ function Navbar() {
     }
 
     const toggleOverlay = () => {
-        document.getElementsByClassName('search-overlay')[0].classList.toggle('open-search-overlay')
+        //document.getElementsByClassName('search-overlay')[0].classList.toggle('open-search-overlay')
+        document.getElementsByClassName('search-overlay')[0].style.transform = 'scale(1)'
     }
 
     const closeSearchOverlay = () => {
-        document.getElementsByClassName('search-overlay')[0].classList.toggle('open-search-overlay')
+        //document.getElementsByClassName('search-overlay')[0].classList.toggle('open-search-overlay')
+        document.getElementsByClassName('search-overlay')[0].style.transform = 'scale(0)'
     }
     return (
         <nav className='shadow relative' style={{ height: '80px' }}>
