@@ -2,6 +2,10 @@ import React from 'react'
 import hero from '../../images/hero.png'
 import './hero.css'
 function Hero() {
+
+    const scrollToWebFlow = () => {
+        document.documentElement.scrollTop = document.getElementsByClassName('webflow')[0].offsetTop
+    }
     return (
         <div className='bg-indigo-900 h-screen relative'>
             <div className='container-xl flex flex-wrap px-6 h-full'>
@@ -21,7 +25,7 @@ function Hero() {
                 <div className='w-1/2 p-5 hidden lg:inline-block'>
                     <img src={hero} />
                 </div>
-                <div className='bg-white mx-auto rounded-full flex justify-center overflow-hidden' style={{ width: '30px', height: '50px' }}>
+                <div className='bg-white mx-auto rounded-full flex justify-center overflow-hidden cursor-pointer' style={{ width: '30px', height: '50px' }} onClick={() => scrollToWebFlow()}>
                     <span className='hero-spin bg-indigo-900 rounded-full block mt-2'></span>
                 </div>
             </div>
