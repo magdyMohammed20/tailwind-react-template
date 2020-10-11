@@ -8,8 +8,8 @@ function QuestionCard({ title, text }) {
                 <i className="fa fa-file-text-o text-gray-600" style={{ fontSize: '1.3rem' }}></i>
             </div>
             <div className='ml-4'>
-                <h2 className='font-bold text-xl my-3'>{title}</h2>
-                <p className='text-gray-600 lg:px-8 xl:p-0'>{text}</p>
+                <h2 className='font-bold text-lg lg:text-xl my-3'>{title}</h2>
+                <p className='text-gray-600 text-sm lg:text-lg lg:px-8 xl:p-0'>{text}</p>
             </div>
         </div>
     )

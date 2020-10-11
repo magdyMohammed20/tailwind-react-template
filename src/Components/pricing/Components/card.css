@@ -8,3 +8,13 @@
 .pricing-card:nth-child(2) > div:hover{
     transform: translateY(-25px) scale(1.10);
 }
+
+
+@media(max-width: 1280px){
+    .pricing-card:nth-child(2) > div,
+    .pricing-card:nth-child(2) > div:hover,
+    .pricing-card > div:hover
+    {
+        transform: translateY(0) scale(1);
+    }
+}

@@ -15,20 +15,20 @@ function Webflow() {
                 </div>
                 <div className='w-full lg:w-1/2 px-12'>
                     <span className='mt-16 mb-8 block text-gray-600 text-sm'>STUNNING TEMPLATE</span>
-                    <h5 className='text-4xl font-bold leading-snug pr-16'>
+                    <h5 className='font-bold leading-snug pr-0 md:pr-16 text-lg  lg:text-4xl '>
                         Build Your Website with Jules UI Kit Template
                     </h5>
-                    <p className='my-4 text-gray-600'>
+                    <p className='my-4 text-gray-600 text-sm lg:text-md xl:text-lg'>
                         A successful marketing plan relies heavily on the pulling-power of advertising copy. Writing result-oriented ad copy is difficult, as it must appeal to, entice, and convince consumers.
                     </p>
                     <div className='mt-8'>
-                        <button className='focus:outline-none py-3 px-8 bg-orange-400 rounded text-white  font-medium transition duration-200 ease-in-out hover:bg-orange-600'>Buy Template</button>
+                        <button className='focus:outline-none py-3 px-8 bg-orange-400 rounded text-white text-sm md:text-md font-medium transition duration-200 ease-in-out hover:bg-orange-600'>Buy Template</button>
                     </div>
                 </div>
             </div>
             <div className='w-3/5 mx-auto text-center py-12'>
-                <span className='p-1 text-white bg-orange-400 rounded font-medium'>ELASTIC THEMES</span>
-                <p className='text-xl mt-8 leading-7'>
+                <span className='p-1 text-white bg-orange-400 rounded font-medium text-sm md:text-md'>ELASTIC THEMES</span>
+                <p className='text-sm md:text-md xl:text-xl mt-8 leading-7'>
                     A successful marketing plan relies heavily on the pulling-power of advertising copy. Writing result-oriented ad copy is difficult, as it must appeal to, entice, and convince consumers to take action.
                 </p>
             </div>

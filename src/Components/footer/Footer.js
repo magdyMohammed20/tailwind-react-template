@@ -14,7 +14,7 @@ function Footer() {
                             for Your Business
                         </span>
                     </div>
-                    <button className='mx-auto mt-6 lg:mt-0 lg:ml-auto lg:mx-0 bg-indigo-700 text-white font-bold px-4 rounded focus:outline-none transition ease-in-out duration-200 hover:bg-indigo-600' style={{ height: '50px' }}>View On Webflow</button>
+                    <button className='mx-auto mt-6 lg:mt-0 lg:ml-auto lg:mx-0 bg-indigo-700 text-white text-sm md:text-lg font-bold px-4 rounded focus:outline-none transition ease-in-out duration-200 hover:bg-indigo-600' style={{ height: '50px' }}>View On Webflow</button>
                 </div>
                 <div className='footer-sections mt-6 grid grid-cols-1 sm:grid-cols-2 xl:grid-cols-4 mb-4'>
                     <div className='my-3 lg:my-0'>

@@ -8,11 +8,11 @@ function Posts() {
         <div className='bg-gray-300 p-16'>
             <div className='container-lg flex'>
                 <div className='w-full lg:w-1/3 text-center lg:text-left'>
-                    <span className='uppercase text-gray-700'>recent posts</span>
-                    <h1 className='text-xl md:text-2xl lg:text-3xl font-bold mt-5 mb-8 leading-snug'>
+                    <span className='uppercase text-gray-700 text-sm md:text-md lg:text-lg'>recent posts</span>
+                    <h1 className='text-md lg:text-xl md:text-2xl lg:text-3xl font-bold mt-5 mb-8 leading-snug'>
                         Learn More About The Template
                     </h1>
-                    <button className='bg-orange-400 text-white font-bold px-6 py-3 rounded transition ease-in-out duration-200 hover:bg-orange-600 focus:outline-none'>
+                    <button className='bg-orange-400 text-white text-sm md:text-lg font-bold px-6 py-3 rounded transition ease-in-out duration-200 hover:bg-orange-600 focus:outline-none'>
                         View All Posts
                     </button>
                 </div>

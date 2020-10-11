@@ -18,3 +18,9 @@
 .hero-wave{
     bottom: -1px
 }
+
+@media(max-width: 992px){
+    .hero{
+        height: 75vh !important;
+    }
+}

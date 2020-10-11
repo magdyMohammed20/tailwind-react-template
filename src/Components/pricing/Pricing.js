@@ -12,10 +12,10 @@ function Pricing() {
             </div>
             <div className='container-lg'>
                 <div className='text-center'>
-                    <span className='text-white text-sm text-gray-400 font-bold'>CHOOSE YOUR PLAN</span>
-                    <h2 className='text-4xl font-bold text-white mt-3 mb-5'>Affordable Pricing</h2>
+                    <span className='text-white text-sm md:text-md text-gray-400 font-bold'>CHOOSE YOUR PLAN</span>
+                    <h2 className='text-xl lg:text-4xl font-bold text-white mt-3 mb-5'>Affordable Pricing</h2>
                     <hr className='w-24 border-t-4 border-orange-400 mx-auto'></hr>
-                    <p className='w-1/2 mx-auto text-gray-400 mt-5'>
+                    <p className='w-full lg:w-1/2 mx-auto text-gray-400 mt-5'>
                         Writing result-oriented ad copy is difficult, as it must appeal to, entice, and convince consumers to take action.
                     </p>
                 </div>

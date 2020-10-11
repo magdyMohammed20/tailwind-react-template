@@ -11,10 +11,10 @@ function Questions() {
             <div className='container-lg flex flex-col xl:flex-row mt-16'>
                 <div className='ask-title w-full xl:w-2/6 text-center xl:text-left'>
                     <img src='https://assets.website-files.com/5e09f044743608547fe6e12a/5e11b62b0227d01a8f7a8d65_question-mark.svg' className='mx-auto xl:ml-0' />
-                    <h1 className='text-4xl font-bold mt-4 mb-8 leading-snug'>
-                        Frequently Asked <br />Questions
+                    <h1 className='text-lg lg:text-4xl font-bold mt-4 mb-8 leading-snug'>
+                        Frequently Asked <br className='hidden xl:block' />Questions
                     </h1>
-                    <a href='#' className='text-indigo-800 font-bold'>
+                    <a href='#' className='text-indigo-800 font-bold text-sm lg:text-lg'>
                         More Questions
                         <i className="fa fa-chevron-right ml-2 text-xl"></i>
                     </a>
