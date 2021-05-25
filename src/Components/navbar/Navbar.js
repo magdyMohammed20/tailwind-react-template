@@ -25,9 +25,7 @@ function Navbar() {
                         <img src={logo} alt='logo' className='h-full w-full' />
                     </div>
                     <ul className='flex dropdown shadow-lg md:shadow-none bg-white border-t lg:border-0' id='dropdown-menu'>
-                        <li className='mx-1'>
-                            <a href='#' className='block p-3 font-medium text-sm md:text-md lg:text-base hover:bg-gray-300 rounded-md transition duration-200 ease-in-out'>Intro</a>
-                        </li>
+
                         <li className='mx-1'>
                             <a href='#' className='block p-3 font-medium text-sm md:text-md lg:text-base hover:bg-gray-300 rounded-md transition duration-200 ease-in-out'>Home</a>
                         </li>
